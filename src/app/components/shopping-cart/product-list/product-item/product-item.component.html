@@ -5,8 +5,8 @@
     <p class="card-text">
       <strong>{{ productItem.price | currency:"IDR" }}</strong>
     </p>
-    <p class="card-text"> {{ productItem.name }}.</p>
-    <p class="card-text"> {{ productItem.description }}.</p>
+    <p class="card-text"> {{ productItem.name }}</p>
+    <p class="card-text"> {{ productItem.description | slice: 0:50}} ...</p>
     <div class="d-flex justify-content-between align-items-center">
       <div class="btn-group">
         <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">Add To Chart</button>
