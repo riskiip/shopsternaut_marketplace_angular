@@ -1,0 +1,63 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Playstation 1",
+      "description": "lorem ipsum",
+      "imageUrl": "https://cf.shopee.co.id/file/cf6ac0a59651078af91260c9bcec4e71",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Playstation 2",
+      "description": "lorem ipsum",
+      "imageUrl": "https://cdn0-production-images-kly.akamaized.net/i_tyqCnDYZPcyBBVEXTd8hqV8_8=/640x640/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1768438/original/088569200_1510560514-ps2.jpg",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Playstation 3",
+      "description": "lorem ipsum",
+      "imageUrl": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/10/2/6932918/6932918_de23a395-a7e3-4507-94ee-7d148c1ac9ed_541_541.jpg",
+      "price": 3000
+    },
+    {
+      "id": 4,
+      "name": "Playstation 4",
+      "description": "lorem ipsum",
+      "imageUrl": "https://media.playstation.com/is/image/SCEA/playstation-4-vertical-product-shot-01-jp-27sep19?$native_t$",
+      "price": 4000
+    },
+    {
+      "id": 5,
+      "name": "Playstation 5",
+      "description": "lorem ipsum",
+      "imageUrl": "https://merahputih.com/media/63/b4/cb/63b4cb55aa4d62ea84cfc58a0255dd77.jpg",
+      "price": 5000
+    },
+    {
+      "id": 6,
+      "name": "Xbox One",
+      "description": "lorem ipsum",
+      "imageUrl": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/gameconsoles/Microsoft_Xbox_One_S/Microsoft_Xbox_One_S_L_1.jpg",
+      "price": 6000
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
