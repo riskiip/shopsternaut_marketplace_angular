@@ -43,7 +43,56 @@
       "price": 6000
     }
   ],
-  "cart":[
-
+  "cart": [
+    {
+      "product": {
+        "id": 2,
+        "name": "Playstation 2",
+        "description": "lvrhjvbehr vr ve rvehbvehbvj eurhvehr ecre rwo ubvreuobveuorbgvobgvehrbvlerubgouye rgerg e ge gewgwm",
+        "imageUrl": "https://cdn0-production-images-kly.akamaized.net/i_tyqCnDYZPcyBBVEXTd8hqV8_8=/640x640/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1768438/original/088569200_1510560514-ps2.jpg",
+        "price": 2000
+      },
+      "id": 1
+    },
+    {
+      "product": {
+        "id": 2,
+        "name": "Playstation 2",
+        "description": "lvrhjvbehr vr ve rvehbvehbvj eurhvehr ecre rwo ubvreuobveuorbgvobgvehrbvlerubgouye rgerg e ge gewgwm",
+        "imageUrl": "https://cdn0-production-images-kly.akamaized.net/i_tyqCnDYZPcyBBVEXTd8hqV8_8=/640x640/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1768438/original/088569200_1510560514-ps2.jpg",
+        "price": 2000
+      },
+      "id": 2
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Playstation 1",
+        "description": "lfwhjbh hrg hergr ergbeurber eyrbg erybyrbfebrfwubfwugyw gwyr wygwubg wuhfbsjdhfuhrbve rveurbv uedvsjbvhbveu e r verbveu hrvjshbrvw",
+        "imageUrl": "https://cf.shopee.co.id/file/cf6ac0a59651078af91260c9bcec4e71",
+        "price": 1000
+      },
+      "id": 3
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Xbox One",
+        "description": "rjgneir g rvnjnhutneo beitrbgeipbgripgrepivnepiurvnep vi ve vepiueiup er gm",
+        "imageUrl": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/gameconsoles/Microsoft_Xbox_One_S/Microsoft_Xbox_One_S_L_1.jpg",
+        "price": 6000
+      },
+      "id": 4
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "Xbox One",
+        "description": "rjgneir g rvnjnhutneo beitrbgeipbgripgrepivnepiurvnep vi ve vepiueiup er gm",
+        "imageUrl": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/gameconsoles/Microsoft_Xbox_One_S/Microsoft_Xbox_One_S_L_1.jpg",
+        "price": 6000
+      },
+      "id": 5
+    }
   ]
 }
