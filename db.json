@@ -43,6 +43,17 @@
       "price": 6000
     }
   ],
+  "wishlist": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
   "cart": [
     {
       "product": {
@@ -93,6 +104,36 @@
         "price": 6000
       },
       "id": 5
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Playstation 5",
+        "description": "kjneruyber ger gerjgeipr gwg wpiu  w  fpuwcnpwunriufnwiubgriw",
+        "imageUrl": "https://merahputih.com/media/63/b4/cb/63b4cb55aa4d62ea84cfc58a0255dd77.jpg",
+        "price": 5000
+      },
+      "id": 6
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Playstation 1",
+        "description": "lfwhjbh hrg hergr ergbeurber eyrbg erybyrbfebrfwubfwugyw gwyr wygwubg wuhfbsjdhfuhrbve rveurbv uedvsjbvhbveu e r verbveu hrvjshbrvw",
+        "imageUrl": "https://cf.shopee.co.id/file/cf6ac0a59651078af91260c9bcec4e71",
+        "price": 1000
+      },
+      "id": 7
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Playstation 1",
+        "description": "lfwhjbh hrg hergr ergbeurber eyrbg erybyrbfebrfwubfwugyw gwyr wygwubg wuhfbsjdhfuhrbve rveurbv uedvsjbvhbveu e r verbveu hrvjshbrvw",
+        "imageUrl": "https://cf.shopee.co.id/file/cf6ac0a59651078af91260c9bcec4e71",
+        "price": 1000
+      },
+      "id": 8
     }
   ]
 }

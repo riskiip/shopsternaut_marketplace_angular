@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Product } from 'src/app/models/product';
 import { MessengerService } from '../../../../services/messenger.service';
 import { CartService } from '../../../../services/cart.service';
+import { WishlistService } from '../../../../services/wishlist.service';
 
 @Component({
   selector: 'app-product-item',
@@ -12,9 +13,11 @@ export class ProductItemComponent implements OnInit {
 
   constructor(
     private msg: MessengerService,
-    private cartService: CartService) { }
+    private cartService: CartService,
+    private wishlistService: WishlistService) { }
 
   @Input() productItem: Product;
+  addedToWishlist: boolean = false;
 
   ngOnInit(): void {
   }
@@ -25,4 +28,15 @@ export class ProductItemComponent implements OnInit {
     });
   }
 
+  handleAddToWishlist(){
+    return this.wishlistService.addToWishlish(this.productItem.id).subscribe( () => {
+      this.addedToWishlist = true;
+    });
+  }
+
+  handleRemoveFromWishlist(){
+    return this.wishlistService.removeFromWishlist(this.productItem.id).subscribe( () => {
+      this.addedToWishlist = false;
+    });
+  }
 }
