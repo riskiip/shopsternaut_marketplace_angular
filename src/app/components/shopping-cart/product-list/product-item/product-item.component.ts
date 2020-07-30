@@ -17,24 +17,27 @@ export class ProductItemComponent implements OnInit {
     private wishlistService: WishlistService) { }
 
   @Input() productItem: Product;
-  addedToWishlist: boolean = false;
+  @Input() addedToWishlist: boolean;
 
   ngOnInit(): void {
   }
 
-  handleAddToCart(){
+  // tslint:disable-next-line: typedef
+  handleAddToCart() {
     this.cartService.addProductToCart(this.productItem).subscribe( () => {
       this.msg.sendMsg(this.productItem);
     });
   }
 
-  handleAddToWishlist(){
+  // tslint:disable-next-line: typedef
+  handleAddToWishlist() {
     return this.wishlistService.addToWishlish(this.productItem.id).subscribe( () => {
       this.addedToWishlist = true;
     });
   }
 
-  handleRemoveFromWishlist(){
+  // tslint:disable-next-line: typedef
+  handleRemoveFromWishlist() {
     return this.wishlistService.removeFromWishlist(this.productItem.id).subscribe( () => {
       this.addedToWishlist = false;
     });
